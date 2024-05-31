@@ -1,10 +1,22 @@
-getgenv().settings = {
+getgenv().settings = { -- search in terminal for this item
     {
         item = "Secret Key", -- put anything here
-        maxPrice = 57200, -- max price
+        maxPrice = 55000, -- max price
         class = "Misc" -- class u can use big games api
     }
 }
+getgenv().settings2 = { -- also get if it finds (you can expand the list even more)
+    {
+        item = "Crystal Key",
+        maxPrice = 25000,
+        class = "Misc",
+    },
+    {
+        item = "Tech Key",
+        maxPrice = 26500,
+        class = "Misc"
+    }
+}
 getgenv().webhook = "https://discordapp.com/api/webhooks/1244016774316556461/DTilIs0V1vCt5_n_c0z1JAR1ETUWDR_K_bwn1FDdqClSbig-PRsvEHcYSp61SeQLaOZv" -- put webhook here
-getgenv().HopDelay = 10 -- increase for less suspicion
+getgenv().HopDelay = 3 -- increase for less suspicion
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MyeTheScripterLol/Ps99-Free-Boothsniper/main/boothsniper%20main"))()
