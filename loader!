@@ -1,8 +1,8 @@
 getgenv().settings = { -- search in terminal for this item
     {
-        item = "Hype Egg", -- put anything here
-        maxPrice = 500000, -- max price
-        class = "Lootbox" -- class u can use big games api
+        item = "Secret Key", -- put anything here
+        maxPrice = 55000, -- max price
+        class = "Misc" -- class u can use big games api
     }
 }
 getgenv().settings2 = { -- also get if it finds (you can expand the list even more)
